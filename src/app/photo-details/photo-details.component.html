@@ -1,0 +1,12 @@
+<article class="details-panel" *ngIf="(photos$ | async) as photos">
+    <img class="main-img"  [src]="photos.url"  >
+    <article>
+    
+      <p>{{photos.title}}</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id pretium leo. Donec pulvinar quam et dapibus eleifend. Maecenas efficitur quam a posuere euismod. Etiam et ullamcorper purus, non ultricies risus. Nullam convallis lorem in pulvinar eleifend. Nullam vel orci est. Aliquam vulputate euismod enim, eu faucibus risus ultrices ut.
+
+        Donec egestas metus libero. In elementum feugiat lectus, non malesuada ligula pharetra non. Mauris maximus felis quam, non sollicitudin turpis facilisis id. Nulla facilisi. Praesent tincidunt mi quis nibh vulputate, luctus ultrices nisi porta. Pellentesque sollicitudin nisl turpis, in ultrices massa blandit nec. Ut mollis ac elit nec vestibulum.
+        
+        Aliquam massa orci, ornare eu malesuada quis, efficitur vestibulum enim. Mauris fermentum massa et augue tincidunt ultrices. Quisque in ipsum sodales, blandit eros eget, aliquam mauris. Sed lobortis nisi nisi, sit amet ullamcorper turpis sagittis eget. Integer ante eros, commodo non vulputate ac, euismod at quam. Ut fermentum augue eu quam finibus pharetra. Fusce commodo tristique eros fermentum rhoncus. Duis a pulvinar est. Phasellus vulputate imperdiet augue sit amet commodo. Nulla placerat magna in tincidunt laoreet. Phasellus at justo leo.</p>
+    </article>
+  </article>

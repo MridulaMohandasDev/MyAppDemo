@@ -1,0 +1,7 @@
+<section> <h2>
+    Welecome to Dashboard Page
+  </h2>
+</section>
+<article class="photo-list"> 
+<app-photo-card *ngFor="let photos of photos; let i = index" [index]="i" [photos]="photos"></app-photo-card>
+</article>

@@ -1,0 +1,5 @@
+.details-panel {
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+  }
